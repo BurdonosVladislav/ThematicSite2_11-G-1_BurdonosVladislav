@@ -1,0 +1,156 @@
+.body{
+    padding: 0px;   
+    margin:0px
+}
+.header{
+    width: 100%;
+    position: static;
+    background-color: #ffffff; 
+    
+}
+.TopLine
+{
+    display: inline-block;
+    height: 80px;
+    width: 100%;         
+    background-color: #ffffff;
+    color: #ffffff;  
+    margin: 15px;      
+    
+}
+.logo{  
+    width: 300px; 
+    height: 70px;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;  
+      
+}
+.blmlines
+{
+    height: 5px;
+    width: 100px;
+    background-color: black;    
+}
+
+
+.Art{
+    width: calc(100%/2.3);
+    height: 800px;       
+    transition: all 0.3s;
+    background-color: black;  
+    margin: 10px 10px 10px 0 ; 
+    float: left;    
+}
+.Stuff{
+    width: calc(100%/1.9);
+    height: 390px; 
+    margin: 10px 0px 10px 0px ; 
+    transition: all 0.3s;
+    background-color: black;
+    display: inline-block;
+    
+}
+.box-picArt{    
+    width: 90%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;     
+    margin: 15px;
+
+}
+.box-pic{
+    width: 40%;
+    height: 80%; 
+    background-size: contain;
+    background-repeat: no-repeat;    
+    float: left;
+    margin: 30px;
+}
+.box-info{
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    padding: 15px 0px 15px 0px;
+    
+    
+}
+.Box-text{
+    font-size: 45px;
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.Box-text1{
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.Box-Subdate{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.575);
+    margin: 0px 0px 0px 20px;
+}
+.Art:hover{    
+    transform: scale(1.04); 
+}
+.Stuff:hover{    
+    transform: scale(1.04);     
+}
+.content{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+}
+.bottom{
+    
+    height: 150px;
+    width: 100%;         
+    background-color: #000000;
+    color: #ffffff;  
+    margin: 15px;
+    margin: 20px 0 0 0 ;     
+    
+}
+.SM{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;  
+    padding: 21px;
+}
+.inst{
+    width: 100px;
+    height: 100px; 
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: center;      
+      
+}
+.YT{
+    width: 100px;
+    height: 100px; 
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: center;
+    
+}
+.video{  
+    height: 350px;
+    width: 100%;   
+    margin: 15px 0 15px 0 ;  
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+    display:block;
+    object-fit: cover;
+}
+
+.line{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    color: #747474;
+}
